@@ -5,10 +5,18 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Takuji Okubo's Portfolio Website">
+  <meta name="author" content="Takuji Okubo">
+
+  <meta property="og:title" content="Takuji Okubo">
+  <meta property="og:description" content="Takuji Okubo's Portfolio Website">
+  <meta property="og:image" content="https://tak-9.github.io/img/homepage.png">
+  <meta property="og:url" content="https://tak-9.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
 
   <title>Takuji Okubo</title>
+
+  <link rel="shortcut icon" href="/favicon.ico">
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,13 +27,8 @@
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic'
     rel='stylesheet' type='text/css'>
 
-  <!-- Plugin CSS -->
-  <!--link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"-->
-
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
-
-  <!--<link href="css/creative.min.css" rel="stylesheet">-->
 
   <link rel="preload" as="image" href="./img/sydney.jpg">
 
@@ -133,7 +136,7 @@
         <div class="col-lg-4 col-sm-6">
             <div class="card shadow">
               <a class="portfolio-box" href="https://covid19-au.netlify.app/" target="_blank">
-                <img src="./img/covid-19.png" class="card-img-top">
+                <img src="./img/covid-19.png" class="card-img-top" style="border:1px solid lightgray;">
                 <div class="portfolio-box-caption">
                   <div class="project-category text-white-50">MERN Stack, passport.js and Chart.js</div>
                   <div class="project-name">Covid-19 Dashboard and Stay Home Tracker</div>
@@ -158,7 +161,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card shadow">
             <a class="portfolio-box" href="https://jeqp.github.io/mixer-upper/" target="_blank">
-              <img src="./img/mixerupper.jpg" class="card-img-top">
+              <img src="./img/mixerupper.jpg" class="card-img-top" style="border:1px solid lightgray;">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">jQuery, Ajax and Google Map</div>
                 <div class="project-name">Mixer Upper</div>
@@ -181,7 +184,7 @@
         <div class="col-lg-4 col-sm-6">
           <div class="card shadow">
             <a class="portfolio-box" href="https://github.com/tak-9/react-employee-directory/" target="_blank">
-              <img src="./img/react_employee.jpg" class="card-img-top">
+              <img src="./img/react_employee.jpg" class="card-img-top" style="border:1px solid lightgray;">
               <div class="portfolio-box-caption">
                 <div class="project-category text-white-50">React, Ajax</div>
                 <div class="project-name">Employee Directory</div>
@@ -203,7 +206,83 @@
       </div>  <!-- Row end -->
       <div class="pt-5"><!--top margin 5 -->
       <div class="row">
-  
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="card shadow">
+            <div style="text-align: center">
+            <a class="portfolio-box" href="https://buget-tracker-takuji.herokuapp.com/" target="_blank">
+              <img src="./img/budget.png" class="card-img-top" style="max-height: 400px; width: auto; height: auto; border:1px solid lightgray;">
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">IndexedDB, PWA, MongoDB. </div>
+                <div class="project-name">Online/Offline Budget Trackers</div>
+              </div>
+            </a>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="https://buget-tracker-takuji.herokuapp.com/" target="_blank">IndexedDB and Progress Web Application - Online/Offline Budget Trackers</a>
+              </h4>
+              <p>This is a Mobile Budget Tracker application which allows for offline access using Web browser's IndexedDB and PWA technology. 
+                A user is able to add expenses and deposits to their budget with or without a connection. 
+                When entering transactions offline, data is saved in Web browser's IndexedDB. The total is populated in server's MongoDB when brought back online.</p>
+              <p>Scored A+ grade. </p>
+              <a href="https://github.com/tak-9/BudgetTracker" class="btn btn-outline-primary" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i> Github repo</a>
+              <a href="https://buget-tracker-takuji.herokuapp.com/" class="btn btn-outline-primary" target="_blank">
+                <i class="fa fa-globe" aria-hidden="true"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="card shadow">
+            <a class="portfolio-box" href="https://google-books-takuji.netlify.app/" target="_blank">
+              <img src="./img/google_books.jpg" class="card-img-top" style="border:1px solid lightgray;">
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">React, Express and MongoDB</div>
+                <div class="project-name">Google Books Search</div>
+              </div>
+            </a>
+            <div class="card-body">
+              <h4 class="card-title"><a href="https://google-books-takuji.netlify.app/" target="_blank">Google Books Search by React</a></h4>
+              <p>React-based Google Books Search app. A user can search and save books to consider which one to puchase later.</p>
+                <p>React, Express and MongoDB. Scored A+ grade.</p> 
+              <a href="https://github.com/tak-9/GoogleBooksSearch" class="btn btn-outline-primary" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i> Github repo</a>
+              <a href="https://google-books-takuji.netlify.app/" class="btn btn-outline-primary" target="_blank">
+                <i class="fa fa-globe" aria-hidden="true"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="card shadow">
+            <a class="portfolio-box" href="https://tak-9.github.io/weather/" target="_blank">
+              <img src="./img/weather.jpg" class="card-img-top"  style="border:1px solid lightgray;">
+              <div class="portfolio-box-caption">
+                <div class="project-category text-white-50">Geolocation, jQuery and Ajax</div>
+                <div class="project-name">Weather Forecast</div>
+              </div>
+            </a>
+            <div class="card-body">
+              <h4 class="card-title"><a href="https://tak-9.github.io/weather/" target="_blank">Weather Forecast</a>
+              </h4>
+              <p>Shows weather forecast for next 5 days using data from Open Weather API. Your current location is detected by Geolocation API.</p>
+              <p><i>"Awesome work. I do not have any feedback
+                  except that everything looks smooth and works as it should. Great job on adding all the extra
+                  functionalities." Sandesh Pathak</i></p>
+              <p>Geolocation, jQuery, localStorage and Ajax. Scored A+ grade. </p>
+              <a href="https://github.com/tak-9/weather" class="btn btn-outline-primary" target="_blank">
+                <i class="fa fa-github" aria-hidden="true"></i> Github repo</a>
+              <a href="https://tak-9.github.io/weather/" class="btn btn-outline-primary" target="_blank">
+                <i class="fa fa-globe" aria-hidden="true"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>  <!-- Row end -->
+
+      <div class="pt-5"><!--top margin 5 -->
+      <div class="row">
         <div class="col-lg-4 col-sm-6">
           <div class="card shadow">
             <a class="portfolio-box" href="https://github.com/tak-9/employee_db" target="_blank">
@@ -223,28 +302,7 @@
                 <i class="fa fa-globe" aria-hidden="true"></i> Demo</a>
             </div>
           </div>
-        </div>
-        
-        <div class="col-lg-4 col-sm-6">
-          <div class="card shadow">
-            <a class="portfolio-box" href="https://google-books-takuji.netlify.app/" target="_blank">
-              <img src="./img/google_books.jpg" class="card-img-top">
-              <div class="portfolio-box-caption">
-                <div class="project-category text-white-50">React, Express and MongoDB</div>
-                <div class="project-name">Google Books Search</div>
-              </div>
-            </a>
-            <div class="card-body">
-              <h4 class="card-title"><a href="https://google-books-takuji.netlify.app/" target="_blank">Google Books Search by React</a></h4>
-              <p>React-based Google Books Search app. A user can search and save books to consider which one to puchase later.</p>
-                <p>React, Express and MongoDB. Scored A+ grade.</p> 
-              <a href="https://github.com/tak-9/GoogleBooksSearch" class="btn btn-outline-primary" target="_blank">
-                <i class="fa fa-github" aria-hidden="true"></i> Github repo</a>
-              <a href="https://google-books-takuji.netlify.app/" class="btn btn-outline-primary" target="_blank">
-                <i class="fa fa-globe" aria-hidden="true"></i> Demo</a>
-            </div>
-          </div>
-        </div>
+        </div>    
 
         <div class="col-lg-4 col-sm-6">
           <div class="card shadow">
@@ -276,33 +334,7 @@
             </div>
           </div>
         </div> 
-      </div>  <!-- Row end -->
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6">
-            <div class="card shadow">
-              <a class="portfolio-box" href="https://tak-9.github.io/weather/" target="_blank">
-                <img src="./img/weather.jpg" class="card-img-top">
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Geolocation, jQuery and Ajax</div>
-                  <div class="project-name">Weather Forecast</div>
-                </div>
-              </a>
-              <div class="card-body">
-                <h4 class="card-title"><a href="https://tak-9.github.io/weather/" target="_blank">Weather Forecast</a>
-                </h4>
-                <p>Shows weather forecast for next 5 days.</p>
-                <p><i>"Awesome work. I do not have any feedback
-                    except that everything looks smooth and works as it should. Great job on adding all the extra
-                    functionalities." Sandesh Pathak</i></p>
-                    <p>Geolocation, jQuery and Ajax. Scored A+ grade. </p>
-                <a href="https://github.com/tak-9/weather" class="btn btn-outline-primary" target="_blank">
-                  <i class="fa fa-github" aria-hidden="true"></i> Github repo</a>
-                <a href="https://tak-9.github.io/weather/" class="btn btn-outline-primary" target="_blank">
-                  <i class="fa fa-globe" aria-hidden="true"></i> Demo</a>
-              </div>
-            </div>
-          </div> 
+          
       </div> <!-- Row end -->
 
     </div>
@@ -377,37 +409,22 @@
         <div class="col-lg-8 text-center">
           <h2 class="text-white mt-0">Let's Get In Touch!</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-2">Ready to start your next project with me? <br>
+          <p class="text-white-50 mb-5">Ready to start your next project with me? <br>
             Give me a call or send me an email and I will get back to you as soon as possible!</p>
-        </div>
-      </div>
 
-      <div class="row text-dark">
-        <div class="col-lg-4 col-md-6 text-center">
-          <div class="mt-5">
-            <a class="icon" href="mailto:takuji.okubo@gmail.com">
-              <i class="fa fa-envelope fa-4x mb-3"></i>
-              <div class="text-dark d-block">takuji.okubo@gmail.com</div></a>
-          </div>
+          <a class="icon mr-4" href="mailto:takuji.okubo@gmail.com">
+            <i class="fa fa-envelope fa-2x mb-3"></i>
+          </a>
+      
+          <a class="icon  mr-4" href="https://github.com/tak-9" target="_blank">
+            <i class="fa fa-github fa-2x mb-3"></i>
+          </a>
+      
+          <a class="icon" href="https://www.linkedin.com/in/takuji-o-85ba94191/" target="_blank">
+            <i class="fa fa-linkedin-square fa-2x mb-3"></i>
+          </a>
+      
         </div>
-
-        <div class="icon col-lg-4 col-md-6 text-center">
-          <div class="mt-5">
-            <a class="icon" href="https://github.com/tak-9" target="_blank">
-            <i class="fa fa-github fa-4x mb-3"></i>
-            <div class="text-dark d-block">Github</div></a>
-          </div>
-        </div>
-        
-        <div class="icon col-lg-4 col-md-6 text-center">
-          <div class="mt-5">
-            <a class="icon" href="https://www.linkedin.com/in/takuji-o-85ba94191/" target="_blank">
-            <i class="fa fa-linkedin-square fa-4x mb-3"></i>
-            <div class="text-dark d-block">LinkedIn</div></a>
-          </div>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -424,11 +441,8 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <!--
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  -->
+
   <!-- Custom scripts for this template -->
-  <!-- <script src="js/creative.min.js"></script> -->
   <script src="js/creative.js"></script>
 
 </body>
